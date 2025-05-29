@@ -1,0 +1,531 @@
+                                      OLS Regression Results                                     
+=================================================================================================
+Dep. Variable:     Inclusion_financiera_general_relativa   R-squared:                       0.771
+Model:                                               OLS   Adj. R-squared:                  0.750
+Method:                                    Least Squares   F-statistic:                     37.51
+Date:                                   Wed, 28 May 2025   Prob (F-statistic):               0.00
+Time:                                           18:46:01   Log-Likelihood:                -4653.8
+No. Observations:                                   6147   AIC:                         1.032e+04
+Df Residuals:                                       5641   BIC:                         1.372e+04
+Df Model:                                            505                                         
+Covariance Type:                               nonrobust                                         
+====================================================================================================================
+                                                       coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------
+Intercept                                            0.2050      0.169      1.216      0.224      -0.126       0.535
+time_2018S2[T.True]                                  0.3135      0.064      4.868      0.000       0.187       0.440
+time_2019S1[T.True]                                  0.3111      0.064      4.857      0.000       0.186       0.437
+time_2019S2[T.True]                                  0.3236      0.064      5.090      0.000       0.199       0.448
+time_2020S1[T.True]                                  0.2986      0.062      4.784      0.000       0.176       0.421
+time_2020S2[T.True]                                  0.1106      0.061      1.819      0.069      -0.009       0.230
+time_2021S1[T.True]                                  0.3105      0.047      6.580      0.000       0.218       0.403
+time_2022S1[T.True]                                 -0.0850      0.035     -2.411      0.016      -0.154      -0.016
+time_2022S2[T.True]                                 -0.0593      0.036     -1.664      0.096      -0.129       0.011
+time_2023S1[T.True]                                 -0.0730      0.037     -1.989      0.047      -0.145      -0.001
+time_2023S2[T.True]                                 -0.4651      0.038    -12.280      0.000      -0.539      -0.391
+C(MUNICIPIO_COBERTURA)[T.ABRIAQUÍ]                  -0.2803      0.231     -1.214      0.225      -0.733       0.172
+C(MUNICIPIO_COBERTURA)[T.ACACÍAS]                    0.8466      0.231      3.664      0.000       0.394       1.300
+C(MUNICIPIO_COBERTURA)[T.ACHÍ]                      -0.1026      0.231     -0.445      0.656      -0.555       0.349
+C(MUNICIPIO_COBERTURA)[T.AGUACHICA]                  0.5802      0.230      2.519      0.012       0.129       1.032
+C(MUNICIPIO_COBERTURA)[T.AGUADA]                    -0.2883      0.230     -1.255      0.210      -0.739       0.162
+C(MUNICIPIO_COBERTURA)[T.AGUADAS]                    0.7230      0.230      3.142      0.002       0.272       1.174
+C(MUNICIPIO_COBERTURA)[T.AGUAZUL]                    0.8670      0.230      3.771      0.000       0.416       1.318
+C(MUNICIPIO_COBERTURA)[T.AGUSTÍN CODAZZI]            0.3274      0.230      1.423      0.155      -0.124       0.778
+C(MUNICIPIO_COBERTURA)[T.ALBANIA]                    2.0838      0.199     10.471      0.000       1.694       2.474
+C(MUNICIPIO_COBERTURA)[T.ALCALÁ]                     0.0525      0.230      0.229      0.819      -0.398       0.503
+C(MUNICIPIO_COBERTURA)[T.ALGARROBO]                 -0.3171      0.230     -1.381      0.167      -0.767       0.133
+C(MUNICIPIO_COBERTURA)[T.ALTO BAUDÓ]                -0.2711      0.230     -1.179      0.239      -0.722       0.180
+C(MUNICIPIO_COBERTURA)[T.AMAGÁ]                      0.8838      0.231      3.824      0.000       0.431       1.337
+C(MUNICIPIO_COBERTURA)[T.AMALFI]                     0.0920      0.231      0.398      0.690      -0.361       0.545
+C(MUNICIPIO_COBERTURA)[T.ANAPOIMA]                   1.7420      0.230      7.579      0.000       1.291       2.193
+C(MUNICIPIO_COBERTURA)[T.ANDALUCÍA]                 -0.2121      0.230     -0.923      0.356      -0.663       0.239
+C(MUNICIPIO_COBERTURA)[T.ANSERMANUEVO]              -0.0031      0.230     -0.014      0.989      -0.454       0.448
+C(MUNICIPIO_COBERTURA)[T.ANZA]                       0.0677      0.231      0.293      0.769      -0.385       0.520
+C(MUNICIPIO_COBERTURA)[T.APARTADÓ]                   1.7762      0.231      7.683      0.000       1.323       2.229
+C(MUNICIPIO_COBERTURA)[T.ARACATACA]                  0.1433      0.230      0.624      0.533      -0.307       0.594
+C(MUNICIPIO_COBERTURA)[T.ARANZAZU]                   0.8379      0.230      3.639      0.000       0.387       1.289
+C(MUNICIPIO_COBERTURA)[T.ARAUCA]                     1.1562      0.230      5.028      0.000       0.705       1.607
+C(MUNICIPIO_COBERTURA)[T.ARAUQUITA]                 -0.1943      0.230     -0.845      0.398      -0.645       0.256
+C(MUNICIPIO_COBERTURA)[T.ARBELÁEZ]                   0.1355      0.230      0.590      0.555      -0.315       0.586
+C(MUNICIPIO_COBERTURA)[T.ARBOLEDA]                   0.0071      0.230      0.031      0.975      -0.443       0.457
+C(MUNICIPIO_COBERTURA)[T.ARBOLETES]                  0.0412      0.231      0.179      0.858      -0.411       0.494
+C(MUNICIPIO_COBERTURA)[T.ARGELIA]                    2.5139      0.210     11.982      0.000       2.103       2.925
+C(MUNICIPIO_COBERTURA)[T.ARJONA]                     0.1138      0.231      0.494      0.621      -0.338       0.566
+C(MUNICIPIO_COBERTURA)[T.ASTREA]                    -0.0994      0.230     -0.432      0.666      -0.550       0.351
+C(MUNICIPIO_COBERTURA)[T.ATACO]                     -0.0603      0.230     -0.262      0.794      -0.512       0.391
+C(MUNICIPIO_COBERTURA)[T.AYAPEL]                    -0.0284      0.230     -0.123      0.902      -0.479       0.422
+C(MUNICIPIO_COBERTURA)[T.BAHÍA SOLANO]               0.1103      0.230      0.480      0.631      -0.340       0.561
+C(MUNICIPIO_COBERTURA)[T.BALBOA]                     1.5449      0.199      7.764      0.000       1.155       1.935
+C(MUNICIPIO_COBERTURA)[T.BARANOA]                    0.0624      0.230      0.271      0.787      -0.389       0.514
+C(MUNICIPIO_COBERTURA)[T.BARBACOAS]                 -0.1209      0.230     -0.527      0.599      -0.571       0.329
+C(MUNICIPIO_COBERTURA)[T.BARRANCA DE UPÍA]          -0.3372      0.230     -1.468      0.142      -0.788       0.113
+C(MUNICIPIO_COBERTURA)[T.BARRANCABERMEJA]            1.2784      0.231      5.538      0.000       0.826       1.731
+C(MUNICIPIO_COBERTURA)[T.BARRANQUILLA]               2.8304      0.258     10.952      0.000       2.324       3.337
+C(MUNICIPIO_COBERTURA)[T.BECERRIL]                   0.1248      0.230      0.543      0.587      -0.326       0.576
+C(MUNICIPIO_COBERTURA)[T.BELLO]                      0.5628      0.236      2.384      0.017       0.100       1.026
+C(MUNICIPIO_COBERTURA)[T.BELMIRA]                   -0.2987      0.231     -1.294      0.196      -0.751       0.154
+C(MUNICIPIO_COBERTURA)[T.BELÉN]                      2.6632      0.199     13.351      0.000       2.272       3.054
+C(MUNICIPIO_COBERTURA)[T.BELÉN DE LOS ANDAQUÍES]     0.0256      0.230      0.111      0.912      -0.426       0.477
+C(MUNICIPIO_COBERTURA)[T.BELÉN DE UMBRÍA]            0.5641      0.230      2.456      0.014       0.114       1.014
+C(MUNICIPIO_COBERTURA)[T.BETANIA]                   -0.0234      0.231     -0.101      0.919      -0.476       0.429
+C(MUNICIPIO_COBERTURA)[T.BETULIA]                    3.4494      0.230     15.010      0.000       2.999       3.900
+C(MUNICIPIO_COBERTURA)[T.BOCHALEMA]                 -0.0662      0.230     -0.288      0.773      -0.517       0.384
+C(MUNICIPIO_COBERTURA)[T.BOLÍVAR]                    4.0307      0.234     17.253      0.000       3.573       4.489
+C(MUNICIPIO_COBERTURA)[T.BOSCONIA]                   0.9369      0.230      4.073      0.000       0.486       1.388
+C(MUNICIPIO_COBERTURA)[T.BRICEÑO]                    0.1101      0.183      0.603      0.547      -0.248       0.468
+C(MUNICIPIO_COBERTURA)[T.BUCARAMANGA]                2.4959      0.251      9.953      0.000       2.004       2.988
+C(MUNICIPIO_COBERTURA)[T.BUENAVENTURA]               0.4527      0.230      1.969      0.049       0.002       0.904
+C(MUNICIPIO_COBERTURA)[T.BUENAVISTA]                 2.3344      0.199     11.719      0.000       1.944       2.725
+C(MUNICIPIO_COBERTURA)[T.BUGALAGRANDE]               0.3859      0.230      1.679      0.093      -0.065       0.837
+C(MUNICIPIO_COBERTURA)[T.CABRERA]                    2.8277      0.230     12.313      0.000       2.378       3.278
+C(MUNICIPIO_COBERTURA)[T.CACHIPAY]                   0.0107      0.199      0.054      0.957      -0.380       0.401
+C(MUNICIPIO_COBERTURA)[T.CAICEDO]                    0.4267      0.231      1.848      0.065      -0.026       0.879
+C(MUNICIPIO_COBERTURA)[T.CAJICÁ]                     0.9766      0.231      4.233      0.000       0.524       1.429
+C(MUNICIPIO_COBERTURA)[T.CALAMAR]                    0.4004      0.230      1.741      0.082      -0.051       0.851
+C(MUNICIPIO_COBERTURA)[T.CALARCA]                    0.8158      0.230      3.550      0.000       0.365       1.266
+C(MUNICIPIO_COBERTURA)[T.CALDAS]                     2.8812      0.231     12.450      0.000       2.428       3.335
+C(MUNICIPIO_COBERTURA)[T.CALDONO]                   -0.2284      0.230     -0.993      0.321      -0.679       0.222
+C(MUNICIPIO_COBERTURA)[T.CALI]                       0.8664      0.306      2.830      0.005       0.266       1.467
+C(MUNICIPIO_COBERTURA)[T.CALOTO]                    -0.1301      0.230     -0.566      0.572      -0.581       0.321
+C(MUNICIPIO_COBERTURA)[T.CAMPOALEGRE]                0.2665      0.230      1.160      0.246      -0.184       0.717
+C(MUNICIPIO_COBERTURA)[T.CANALETE]                  -0.0372      0.230     -0.162      0.872      -0.488       0.414
+C(MUNICIPIO_COBERTURA)[T.CANDELARIA]                 1.7967      0.201      8.921      0.000       1.402       2.192
+C(MUNICIPIO_COBERTURA)[T.CAPARRAPÍ]                  0.0806      0.230      0.351      0.726      -0.370       0.531
+C(MUNICIPIO_COBERTURA)[T.CAQUEZA]                    1.2902      0.230      5.613      0.000       0.840       1.741
+C(MUNICIPIO_COBERTURA)[T.CARCASÍ]                    0.6933      0.199      3.486      0.000       0.303       1.083
+C(MUNICIPIO_COBERTURA)[T.CARMEN DE APICALÁ]          0.1354      0.230      0.589      0.556      -0.315       0.586
+C(MUNICIPIO_COBERTURA)[T.CARTAGENA]                  1.4335      0.244      5.874      0.000       0.955       1.912
+C(MUNICIPIO_COBERTURA)[T.CARTAGENA DEL CHAIRÁ]      -0.0025      0.230     -0.011      0.991      -0.454       0.449
+C(MUNICIPIO_COBERTURA)[T.CARTAGO]                    1.0750      0.230      4.672      0.000       0.624       1.526
+C(MUNICIPIO_COBERTURA)[T.CASTILLA LA NUEVA]          0.0842      0.230      0.367      0.714      -0.366       0.534
+C(MUNICIPIO_COBERTURA)[T.CAUCASIA]                   0.0887      0.189      0.469      0.639      -0.282       0.459
+C(MUNICIPIO_COBERTURA)[T.CERETÉ]                     0.3257      0.230      1.416      0.157      -0.125       0.777
+C(MUNICIPIO_COBERTURA)[T.CHAGUANÍ]                   0.1387      0.230      0.603      0.546      -0.312       0.589
+C(MUNICIPIO_COBERTURA)[T.CHAMEZA]                   -0.2963      0.230     -1.288      0.198      -0.747       0.155
+C(MUNICIPIO_COBERTURA)[T.CHAPARRAL]                  1.5710      0.230      6.837      0.000       1.121       2.021
+C(MUNICIPIO_COBERTURA)[T.CHARALÁ]                    0.4730      0.230      2.058      0.040       0.022       0.924
+C(MUNICIPIO_COBERTURA)[T.CHIGORODÓ]                  0.5085      0.231      2.203      0.028       0.056       0.961
+C(MUNICIPIO_COBERTURA)[T.CHIMICHAGUA]               -0.1376      0.230     -0.598      0.550      -0.588       0.313
+C(MUNICIPIO_COBERTURA)[T.CHINCHINÁ]                  1.0403      0.230      4.514      0.000       0.589       1.492
+C(MUNICIPIO_COBERTURA)[T.CHINÁCOTA]                  0.0372      0.230      0.162      0.871      -0.413       0.488
+C(MUNICIPIO_COBERTURA)[T.CHINÚ]                      0.0684      0.230      0.297      0.766      -0.383       0.519
+C(MUNICIPIO_COBERTURA)[T.CHIQUINQUIRÁ]               1.8247      0.231      7.904      0.000       1.372       2.277
+C(MUNICIPIO_COBERTURA)[T.CHIRIGUANÁ]                 0.0615      0.230      0.268      0.789      -0.389       0.512
+C(MUNICIPIO_COBERTURA)[T.CHISCAS]                    0.2934      0.230      1.273      0.203      -0.158       0.745
+C(MUNICIPIO_COBERTURA)[T.CHITA]                      0.2463      0.200      1.232      0.218      -0.146       0.638
+C(MUNICIPIO_COBERTURA)[T.CHITAGÁ]                    0.0057      0.230      0.025      0.980      -0.445       0.456
+C(MUNICIPIO_COBERTURA)[T.CHÍA]                       0.6029      0.189      3.196      0.001       0.233       0.973
+C(MUNICIPIO_COBERTURA)[T.CIMITARRA]                  0.2096      0.230      0.912      0.362      -0.241       0.660
+C(MUNICIPIO_COBERTURA)[T.CIRCASIA]                   1.0275      0.188      5.472      0.000       0.659       1.396
+C(MUNICIPIO_COBERTURA)[T.CISNEROS]                   0.5794      0.231      2.509      0.012       0.127       1.032
+C(MUNICIPIO_COBERTURA)[T.CIÉNAGA]                    0.5752      0.230      2.504      0.012       0.125       1.026
+C(MUNICIPIO_COBERTURA)[T.CIÉNAGA DE ORO]            -0.0284      0.230     -0.124      0.902      -0.479       0.422
+C(MUNICIPIO_COBERTURA)[T.COGUA]                     -0.2496      0.230     -1.086      0.278      -0.700       0.201
+C(MUNICIPIO_COBERTURA)[T.COLOMBIA]                  -0.0799      0.199     -0.401      0.688      -0.470       0.310
+C(MUNICIPIO_COBERTURA)[T.COLÓN]                     -0.3006      0.199     -1.511      0.131      -0.691       0.090
+C(MUNICIPIO_COBERTURA)[T.CONCEPCIÓN]                 1.4216      0.231      6.157      0.000       0.969       1.874
+C(MUNICIPIO_COBERTURA)[T.CONDOTO]                    0.5302      0.230      2.308      0.021       0.080       0.981
+C(MUNICIPIO_COBERTURA)[T.CONTRATACIÓN]               0.5145      0.230      2.240      0.025       0.064       0.965
+C(MUNICIPIO_COBERTURA)[T.COPACABANA]                 0.7745      0.231      3.349      0.001       0.321       1.228
+C(MUNICIPIO_COBERTURA)[T.COROZAL]                    0.4452      0.230      1.938      0.053      -0.005       0.896
+C(MUNICIPIO_COBERTURA)[T.COTA]                       0.6915      0.199      3.471      0.001       0.301       1.082
+C(MUNICIPIO_COBERTURA)[T.COTORRA]                   -0.2894      0.230     -1.258      0.208      -0.740       0.161
+C(MUNICIPIO_COBERTURA)[T.CUCUNUBÁ]                  -0.2947      0.230     -1.282      0.200      -0.745       0.156
+C(MUNICIPIO_COBERTURA)[T.CUMARAL]                    0.3225      0.199      1.620      0.105      -0.068       0.713
+C(MUNICIPIO_COBERTURA)[T.CUMARIBO]                  -0.2110      0.230     -0.916      0.360      -0.663       0.241
+C(MUNICIPIO_COBERTURA)[T.CUMBAL]                     0.0346      0.230      0.151      0.880      -0.416       0.485
+C(MUNICIPIO_COBERTURA)[T.CURUMANÍ]                   0.0462      0.230      0.201      0.841      -0.405       0.497
+C(MUNICIPIO_COBERTURA)[T.CÁCOTA]                     0.1839      0.230      0.800      0.424      -0.267       0.634
+C(MUNICIPIO_COBERTURA)[T.CÓRDOBA]                    1.0105      0.188      5.379      0.000       0.642       1.379
+C(MUNICIPIO_COBERTURA)[T.DAGUA]                     -0.1281      0.230     -0.557      0.577      -0.579       0.323
+C(MUNICIPIO_COBERTURA)[T.DIBULLA]                   -0.2156      0.230     -0.939      0.348      -0.666       0.235
+C(MUNICIPIO_COBERTURA)[T.DONMATÍAS]                  1.3326      0.231      5.774      0.000       0.880       1.785
+C(MUNICIPIO_COBERTURA)[T.DOSQUEBRADAS]               0.5397      0.230      2.347      0.019       0.089       0.990
+C(MUNICIPIO_COBERTURA)[T.DUITAMA]                    1.5058      0.232      6.482      0.000       1.050       1.961
+C(MUNICIPIO_COBERTURA)[T.EL BAGRE]                   0.1593      0.231      0.690      0.490      -0.293       0.612
+C(MUNICIPIO_COBERTURA)[T.EL BANCO]                   0.2742      0.230      1.193      0.233      -0.176       0.725
+C(MUNICIPIO_COBERTURA)[T.EL CARMEN DE VIBORAL]       0.6186      0.231      2.680      0.007       0.166       1.071
+C(MUNICIPIO_COBERTURA)[T.EL CERRITO]                 0.4445      0.231      1.928      0.054      -0.007       0.897
+C(MUNICIPIO_COBERTURA)[T.EL COLEGIO]                 0.7421      0.230      3.229      0.001       0.292       1.193
+C(MUNICIPIO_COBERTURA)[T.EL COPEY]                  -0.1077      0.230     -0.468      0.639      -0.559       0.343
+C(MUNICIPIO_COBERTURA)[T.EL DOVIO]                   0.4912      0.230      2.136      0.033       0.040       0.942
+C(MUNICIPIO_COBERTURA)[T.EL ESPINO]                  0.4371      0.230      1.898      0.058      -0.014       0.889
+C(MUNICIPIO_COBERTURA)[T.EL GUACAMAYO]              -0.3084      0.230     -1.342      0.180      -0.759       0.142
+C(MUNICIPIO_COBERTURA)[T.EL GUAMO]                  -0.2658      0.231     -1.153      0.249      -0.718       0.186
+C(MUNICIPIO_COBERTURA)[T.EL PASO]                    0.2022      0.230      0.879      0.379      -0.249       0.653
+C(MUNICIPIO_COBERTURA)[T.EL ROSAL]                   0.7103      0.230      3.090      0.002       0.260       1.161
+C(MUNICIPIO_COBERTURA)[T.EL ROSARIO]                -0.1066      0.230     -0.464      0.643      -0.557       0.344
+C(MUNICIPIO_COBERTURA)[T.EL SANTUARIO]               1.1462      0.231      4.970      0.000       0.694       1.598
+C(MUNICIPIO_COBERTURA)[T.EL TABLÓN DE GÓMEZ]        -0.0755      0.230     -0.329      0.742      -0.526       0.375
+C(MUNICIPIO_COBERTURA)[T.EL TAMBO]                   1.3191      0.199      6.625      0.000       0.929       1.709
+C(MUNICIPIO_COBERTURA)[T.EL TARRA]                  -0.3087      0.230     -1.344      0.179      -0.759       0.142
+C(MUNICIPIO_COBERTURA)[T.EL ZULIA]                   0.0380      0.230      0.165      0.869      -0.412       0.488
+C(MUNICIPIO_COBERTURA)[T.ENCINO]                    -0.3158      0.230     -1.375      0.169      -0.766       0.134
+C(MUNICIPIO_COBERTURA)[T.ESPINAL]                    1.4417      0.231      6.249      0.000       0.989       1.894
+C(MUNICIPIO_COBERTURA)[T.FACATATIVÁ]                 1.1300      0.231      4.902      0.000       0.678       1.582
+C(MUNICIPIO_COBERTURA)[T.FILADELFIA]                 0.3526      0.230      1.532      0.126      -0.099       0.804
+C(MUNICIPIO_COBERTURA)[T.FILANDIA]                   0.0483      0.230      0.210      0.833      -0.402       0.499
+C(MUNICIPIO_COBERTURA)[T.FLANDES]                   -0.3340      0.230     -1.452      0.147      -0.785       0.117
+C(MUNICIPIO_COBERTURA)[T.FLORENCIA]                  3.7233      0.233     16.001      0.000       3.267       4.179
+C(MUNICIPIO_COBERTURA)[T.FLORIDA]                    0.1858      0.199      0.933      0.351      -0.205       0.576
+C(MUNICIPIO_COBERTURA)[T.FLORIDABLANCA]              0.2570      0.233      1.105      0.269      -0.199       0.713
+C(MUNICIPIO_COBERTURA)[T.FONSECA]                    0.7345      0.230      3.196      0.001       0.284       1.185
+C(MUNICIPIO_COBERTURA)[T.FORTUL]                    -0.0401      0.230     -0.174      0.862      -0.491       0.411
+C(MUNICIPIO_COBERTURA)[T.FRONTINO]                   2.5808      0.231     11.184      0.000       2.128       3.033
+C(MUNICIPIO_COBERTURA)[T.FUNDACIÓN]                  0.5075      0.230      2.210      0.027       0.057       0.958
+C(MUNICIPIO_COBERTURA)[T.FUNZA]                      1.1266      0.230      4.890      0.000       0.675       1.578
+C(MUNICIPIO_COBERTURA)[T.FUSAGASUGÁ]                 1.1856      0.231      5.133      0.000       0.733       1.638
+C(MUNICIPIO_COBERTURA)[T.FÚQUENE]                   -0.3101      0.230     -1.349      0.177      -0.761       0.140
+C(MUNICIPIO_COBERTURA)[T.GACHANTIVÁ]                 0.4703      0.230      2.042      0.041       0.019       0.922
+C(MUNICIPIO_COBERTURA)[T.GARAGOA]                    1.2324      0.230      5.350      0.000       0.781       1.684
+C(MUNICIPIO_COBERTURA)[T.GARZÓN]                     1.2997      0.230      5.654      0.000       0.849       1.750
+C(MUNICIPIO_COBERTURA)[T.GINEBRA]                   -0.0507      0.230     -0.221      0.825      -0.501       0.400
+C(MUNICIPIO_COBERTURA)[T.GIRALDO]                   -0.3258      0.231     -1.412      0.158      -0.778       0.126
+C(MUNICIPIO_COBERTURA)[T.GIRARDOT]                   2.0426      0.230      8.865      0.000       1.591       2.494
+C(MUNICIPIO_COBERTURA)[T.GIRARDOTA]                  0.9765      0.231      4.229      0.000       0.524       1.429
+C(MUNICIPIO_COBERTURA)[T.GIRÓN]                      0.1339      0.230      0.581      0.561      -0.318       0.586
+C(MUNICIPIO_COBERTURA)[T.GRAMALOTE]                 -0.0539      0.230     -0.235      0.815      -0.504       0.396
+C(MUNICIPIO_COBERTURA)[T.GRANADA]                    4.2373      0.240     17.670      0.000       3.767       4.707
+C(MUNICIPIO_COBERTURA)[T.GUACA]                      1.3168      0.199      6.618      0.000       0.927       1.707
+C(MUNICIPIO_COBERTURA)[T.GUACARÍ]                   -0.0520      0.199     -0.261      0.794      -0.442       0.338
+C(MUNICIPIO_COBERTURA)[T.GUADALAJARA DE BUGA]        1.6011      0.230      6.954      0.000       1.150       2.052
+C(MUNICIPIO_COBERTURA)[T.GUADALUPE]                  2.6832      0.192     13.966      0.000       2.307       3.060
+C(MUNICIPIO_COBERTURA)[T.GUADUAS]                    0.4910      0.230      2.136      0.033       0.040       0.942
+C(MUNICIPIO_COBERTURA)[T.GUAITARILLA]                0.0344      0.230      0.150      0.881      -0.416       0.485
+C(MUNICIPIO_COBERTURA)[T.GUAMAL]                     1.6562      0.199      8.314      0.000       1.266       2.047
+C(MUNICIPIO_COBERTURA)[T.GUAMO]                      0.1082      0.230      0.471      0.638      -0.342       0.559
+C(MUNICIPIO_COBERTURA)[T.GUAPI]                      0.0276      0.230      0.120      0.905      -0.423       0.479
+C(MUNICIPIO_COBERTURA)[T.GUARNE]                     0.5614      0.231      2.433      0.015       0.109       1.014
+C(MUNICIPIO_COBERTURA)[T.GUASCA]                     0.3575      0.230      1.556      0.120      -0.093       0.808
+C(MUNICIPIO_COBERTURA)[T.GUATAVITA]                  0.1243      0.230      0.541      0.589      -0.326       0.575
+C(MUNICIPIO_COBERTURA)[T.GUATEQUE]                   0.7596      0.230      3.298      0.001       0.308       1.211
+C(MUNICIPIO_COBERTURA)[T.GUÁTICA]                    0.1556      0.230      0.677      0.498      -0.295       0.606
+C(MUNICIPIO_COBERTURA)[T.GÜICÁN]                     0.3580      0.230      1.555      0.120      -0.093       0.809
+C(MUNICIPIO_COBERTURA)[T.HACARÍ]                     0.0283      0.230      0.123      0.902      -0.422       0.479
+C(MUNICIPIO_COBERTURA)[T.HATONUEVO]                 -0.1192      0.230     -0.519      0.604      -0.570       0.331
+C(MUNICIPIO_COBERTURA)[T.HONDA]                      0.6697      0.230      2.911      0.004       0.219       1.121
+C(MUNICIPIO_COBERTURA)[T.IBAGUÉ]                     1.1526      0.256      4.508      0.000       0.651       1.654
+C(MUNICIPIO_COBERTURA)[T.IMUÉS]                     -0.3002      0.230     -1.307      0.191      -0.750       0.150
+C(MUNICIPIO_COBERTURA)[T.INÍRIDA]                    0.3183      0.230      1.385      0.166      -0.132       0.769
+C(MUNICIPIO_COBERTURA)[T.IPIALES]                    1.3034      0.230      5.656      0.000       0.852       1.755
+C(MUNICIPIO_COBERTURA)[T.IQUIRA]                     1.1454      0.199      5.757      0.000       0.755       1.535
+C(MUNICIPIO_COBERTURA)[T.ISNOS]                      0.2035      0.230      0.886      0.376      -0.247       0.654
+C(MUNICIPIO_COBERTURA)[T.ISTMINA]                    0.1744      0.230      0.759      0.448      -0.276       0.625
+C(MUNICIPIO_COBERTURA)[T.ITAGUI]                     1.3940      0.234      5.968      0.000       0.936       1.852
+C(MUNICIPIO_COBERTURA)[T.JAMUNDÍ]                    0.1796      0.231      0.777      0.437      -0.274       0.633
+C(MUNICIPIO_COBERTURA)[T.JARDÍN]                     0.8259      0.231      3.580      0.000       0.374       1.278
+C(MUNICIPIO_COBERTURA)[T.JERICÓ]                     1.7133      0.231      7.423      0.000       1.261       2.166
+C(MUNICIPIO_COBERTURA)[T.JESÚS MARÍA]                0.4262      0.230      1.855      0.064      -0.024       0.877
+C(MUNICIPIO_COBERTURA)[T.LA BELLEZA]                 0.1559      0.230      0.678      0.498      -0.294       0.606
+C(MUNICIPIO_COBERTURA)[T.LA CEJA]                    1.5276      0.231      6.607      0.000       1.074       1.981
+C(MUNICIPIO_COBERTURA)[T.LA CRUZ]                   -0.0609      0.230     -0.265      0.791      -0.511       0.389
+C(MUNICIPIO_COBERTURA)[T.LA CUMBRE]                 -0.1257      0.230     -0.547      0.584      -0.576       0.325
+C(MUNICIPIO_COBERTURA)[T.LA DORADA]                  1.2648      0.230      5.493      0.000       0.813       1.716
+C(MUNICIPIO_COBERTURA)[T.LA ESTRELLA]                0.4487      0.231      1.941      0.052      -0.005       0.902
+C(MUNICIPIO_COBERTURA)[T.LA JAGUA DE IBIRICO]       -0.0203      0.230     -0.088      0.930      -0.471       0.431
+C(MUNICIPIO_COBERTURA)[T.LA MACARENA]               -0.1374      0.230     -0.598      0.550      -0.588       0.313
+C(MUNICIPIO_COBERTURA)[T.LA MESA]                    1.2786      0.230      5.561      0.000       0.828       1.729
+C(MUNICIPIO_COBERTURA)[T.LA PAZ]                     1.4015      0.199      7.040      0.000       1.011       1.792
+C(MUNICIPIO_COBERTURA)[T.LA PLATA]                   0.8766      0.230      3.812      0.000       0.426       1.327
+C(MUNICIPIO_COBERTURA)[T.LA TOLA]                   -0.3285      0.230     -1.430      0.153      -0.779       0.122
+C(MUNICIPIO_COBERTURA)[T.LA VEGA]                    1.9678      0.199      9.868      0.000       1.577       2.359
+C(MUNICIPIO_COBERTURA)[T.LA VICTORIA]                1.5330      0.209      7.349      0.000       1.124       1.942
+C(MUNICIPIO_COBERTURA)[T.LA VIRGINIA]                2.5467      0.230     11.082      0.000       2.096       2.997
+C(MUNICIPIO_COBERTURA)[T.LABATECA]                   0.0481      0.230      0.210      0.834      -0.402       0.498
+C(MUNICIPIO_COBERTURA)[T.LABRANZAGRANDE]             0.4667      0.230      2.025      0.043       0.015       0.918
+C(MUNICIPIO_COBERTURA)[T.LEBRIJA]                    0.1099      0.230      0.478      0.632      -0.340       0.560
+C(MUNICIPIO_COBERTURA)[T.LEJANÍAS]                  -0.1452      0.230     -0.632      0.528      -0.596       0.305
+C(MUNICIPIO_COBERTURA)[T.LETICIA]                    0.6579      0.230      2.859      0.004       0.207       1.109
+C(MUNICIPIO_COBERTURA)[T.LIBORINA]                   0.1347      0.231      0.584      0.559      -0.318       0.587
+C(MUNICIPIO_COBERTURA)[T.LORICA]                     0.4749      0.230      2.065      0.039       0.024       0.926
+C(MUNICIPIO_COBERTURA)[T.LOS PATIOS]                -0.2242      0.230     -0.974      0.330      -0.676       0.227
+C(MUNICIPIO_COBERTURA)[T.LURUACO]                   -0.0163      0.230     -0.071      0.944      -0.468       0.436
+C(MUNICIPIO_COBERTURA)[T.LÍBANO]                     1.0770      0.230      4.686      0.000       0.626       1.528
+C(MUNICIPIO_COBERTURA)[T.MACARAVITA]                -0.3093      0.230     -1.347      0.178      -0.760       0.141
+C(MUNICIPIO_COBERTURA)[T.MACHETA]                    0.7264      0.199      3.649      0.000       0.336       1.117
+C(MUNICIPIO_COBERTURA)[T.MADRID]                     0.8333      0.231      3.613      0.000       0.381       1.286
+C(MUNICIPIO_COBERTURA)[T.MAICAO]                     0.0625      0.230      0.272      0.786      -0.388       0.513
+C(MUNICIPIO_COBERTURA)[T.MAJAGUAL]                  -0.1020      0.230     -0.444      0.657      -0.552       0.348
+C(MUNICIPIO_COBERTURA)[T.MANAURE]                    0.5907      0.199      2.967      0.003       0.200       0.981
+C(MUNICIPIO_COBERTURA)[T.MANIZALES]                  1.7003      0.236      7.198      0.000       1.237       2.163
+C(MUNICIPIO_COBERTURA)[T.MANZANARES]                 0.6634      0.230      2.882      0.004       0.212       1.115
+C(MUNICIPIO_COBERTURA)[T.MAPIRIPÁN]                  0.3301      0.230      1.436      0.151      -0.120       0.781
+C(MUNICIPIO_COBERTURA)[T.MARINILLA]                  0.9219      0.231      3.990      0.000       0.469       1.375
+C(MUNICIPIO_COBERTURA)[T.MARQUETALIA]               -0.0008      0.230     -0.003      0.997      -0.452       0.451
+C(MUNICIPIO_COBERTURA)[T.MEDELLÍN]                   0.7119      0.366      1.943      0.052      -0.006       1.430
+C(MUNICIPIO_COBERTURA)[T.MEDIO BAUDÓ]               -0.2775      0.230     -1.207      0.228      -0.728       0.173
+C(MUNICIPIO_COBERTURA)[T.MELGAR]                     4.6352      0.236     19.658      0.000       4.173       5.097
+C(MUNICIPIO_COBERTURA)[T.MERCADERES]                 0.0296      0.230      0.129      0.898      -0.422       0.481
+C(MUNICIPIO_COBERTURA)[T.MILÁN]                     -0.0343      0.230     -0.149      0.882      -0.486       0.418
+C(MUNICIPIO_COBERTURA)[T.MIRAFLORES]                 3.9014      0.201     19.454      0.000       3.508       4.295
+C(MUNICIPIO_COBERTURA)[T.MISTRATÓ]                  -0.1316      0.230     -0.573      0.567      -0.582       0.319
+C(MUNICIPIO_COBERTURA)[T.MOCOA]                      0.8724      0.230      3.796      0.000       0.422       1.323
+C(MUNICIPIO_COBERTURA)[T.MOGOTES]                   -0.0548      0.230     -0.239      0.811      -0.505       0.395
+C(MUNICIPIO_COBERTURA)[T.MOMIL]                     -0.1407      0.230     -0.612      0.541      -0.592       0.310
+C(MUNICIPIO_COBERTURA)[T.MONIQUIRÁ]                  0.2764      0.200      1.385      0.166      -0.115       0.668
+C(MUNICIPIO_COBERTURA)[T.MONTEBELLO]                 0.1161      0.231      0.503      0.615      -0.336       0.568
+C(MUNICIPIO_COBERTURA)[T.MONTELÍBANO]                0.5420      0.230      2.357      0.018       0.091       0.993
+C(MUNICIPIO_COBERTURA)[T.MONTENEGRO]                 0.4833      0.230      2.104      0.035       0.033       0.934
+C(MUNICIPIO_COBERTURA)[T.MONTERÍA]                   1.2291      0.235      5.238      0.000       0.769       1.689
+C(MUNICIPIO_COBERTURA)[T.MORALES]                    0.2799      0.200      1.403      0.161      -0.111       0.671
+C(MUNICIPIO_COBERTURA)[T.MOSQUERA]                   1.9610      0.231      8.478      0.000       1.508       2.414
+C(MUNICIPIO_COBERTURA)[T.MUZO]                       0.3341      0.230      1.451      0.147      -0.117       0.786
+C(MUNICIPIO_COBERTURA)[T.MÁLAGA]                     1.0994      0.230      4.781      0.000       0.649       1.550
+C(MUNICIPIO_COBERTURA)[T.NARIÑO]                     1.6045      0.190      8.429      0.000       1.231       1.978
+C(MUNICIPIO_COBERTURA)[T.NATAGAIMA]                  0.0469      0.199      0.235      0.814      -0.343       0.437
+C(MUNICIPIO_COBERTURA)[T.NECHÍ]                     -0.1451      0.231     -0.629      0.530      -0.597       0.307
+C(MUNICIPIO_COBERTURA)[T.NECOCLÍ]                    0.1012      0.231      0.439      0.661      -0.351       0.553
+C(MUNICIPIO_COBERTURA)[T.NEIRA]                      0.4258      0.230      1.850      0.064      -0.025       0.877
+C(MUNICIPIO_COBERTURA)[T.NEIVA]                      1.9419      0.241      8.049      0.000       1.469       2.415
+C(MUNICIPIO_COBERTURA)[T.NEMOCÓN]                   -0.2169      0.230     -0.944      0.345      -0.667       0.234
+C(MUNICIPIO_COBERTURA)[T.NOBSA]                      0.1602      0.230      0.695      0.487      -0.291       0.612
+C(MUNICIPIO_COBERTURA)[T.NUQUÍ]                     -0.3055      0.230     -1.330      0.184      -0.756       0.145
+C(MUNICIPIO_COBERTURA)[T.NÁTAGA]                     0.4693      0.199      2.359      0.018       0.079       0.859
+C(MUNICIPIO_COBERTURA)[T.OBANDO]                     0.4373      0.230      1.902      0.057      -0.013       0.888
+C(MUNICIPIO_COBERTURA)[T.OIBA]                       0.4703      0.230      2.046      0.041       0.020       0.921
+C(MUNICIPIO_COBERTURA)[T.OLAYA HERRERA]             -0.1035      0.230     -0.451      0.652      -0.554       0.347
+C(MUNICIPIO_COBERTURA)[T.ORITO]                      0.4086      0.230      1.777      0.076      -0.042       0.859
+C(MUNICIPIO_COBERTURA)[T.OROCUÉ]                     0.0008      0.230      0.004      0.997      -0.450       0.451
+C(MUNICIPIO_COBERTURA)[T.ORTEGA]                     0.0946      0.230      0.412      0.681      -0.356       0.545
+C(MUNICIPIO_COBERTURA)[T.OSPINA]                    -0.3184      0.230     -1.387      0.166      -0.769       0.132
+C(MUNICIPIO_COBERTURA)[T.OTANCHE]                    0.2445      0.230      1.061      0.289      -0.207       0.696
+C(MUNICIPIO_COBERTURA)[T.PACHO]                      1.2681      0.230      5.518      0.000       0.818       1.719
+C(MUNICIPIO_COBERTURA)[T.PACOA]                      0.9084      0.226      4.019      0.000       0.465       1.351
+C(MUNICIPIO_COBERTURA)[T.PAILITAS]                  -0.0472      0.230     -0.205      0.837      -0.498       0.404
+C(MUNICIPIO_COBERTURA)[T.PAIPA]                      0.6609      0.200      3.309      0.001       0.269       1.053
+C(MUNICIPIO_COBERTURA)[T.PALESTINA]                  1.5437      0.199      7.739      0.000       1.153       1.935
+C(MUNICIPIO_COBERTURA)[T.PALMAS DEL SOCORRO]        -0.2911      0.230     -1.267      0.205      -0.741       0.159
+C(MUNICIPIO_COBERTURA)[T.PALMIRA]                    0.8317      0.233      3.565      0.000       0.374       1.289
+C(MUNICIPIO_COBERTURA)[T.PAMPLONA]                   1.2155      0.230      5.287      0.000       0.765       1.666
+C(MUNICIPIO_COBERTURA)[T.PANA PANA]                 -0.2737      0.352     -0.777      0.437      -0.964       0.417
+C(MUNICIPIO_COBERTURA)[T.PANDI]                      0.0714      0.230      0.311      0.756      -0.379       0.522
+C(MUNICIPIO_COBERTURA)[T.PANQUEBA]                  -0.3136      0.230     -1.362      0.173      -0.765       0.138
+C(MUNICIPIO_COBERTURA)[T.PARATEBUENO]                0.0312      0.230      0.136      0.892      -0.419       0.482
+C(MUNICIPIO_COBERTURA)[T.PASTO]                      1.3572      0.238      5.694      0.000       0.890       1.824
+C(MUNICIPIO_COBERTURA)[T.PATÍA]                      0.6215      0.200      3.115      0.002       0.230       1.013
+C(MUNICIPIO_COBERTURA)[T.PAUNA]                      0.2927      0.230      1.271      0.204      -0.159       0.744
+C(MUNICIPIO_COBERTURA)[T.PAZ DE ARIPORO]             0.5998      0.230      2.609      0.009       0.149       1.050
+C(MUNICIPIO_COBERTURA)[T.PELAYA]                    -0.0648      0.230     -0.282      0.778      -0.516       0.386
+C(MUNICIPIO_COBERTURA)[T.PENSILVANIA]                0.4315      0.230      1.875      0.061      -0.020       0.883
+C(MUNICIPIO_COBERTURA)[T.PEQUE]                      0.1425      0.231      0.618      0.537      -0.310       0.595
+C(MUNICIPIO_COBERTURA)[T.PEREIRA]                    2.8909      0.234     12.370      0.000       2.433       3.349
+C(MUNICIPIO_COBERTURA)[T.PESCA]                      0.1433      0.230      0.622      0.534      -0.308       0.595
+C(MUNICIPIO_COBERTURA)[T.PIEDECUESTA]                0.2660      0.231      1.152      0.249      -0.187       0.719
+C(MUNICIPIO_COBERTURA)[T.PINCHOTE]                  -0.2996      0.230     -1.305      0.192      -0.750       0.151
+C(MUNICIPIO_COBERTURA)[T.PITALITO]                   1.2349      0.230      5.360      0.000       0.783       1.687
+C(MUNICIPIO_COBERTURA)[T.PIVIJAY]                    0.0380      0.230      0.165      0.869      -0.412       0.488
+C(MUNICIPIO_COBERTURA)[T.PLANADAS]                   0.0695      0.230      0.302      0.762      -0.381       0.520
+C(MUNICIPIO_COBERTURA)[T.PLANETA RICA]               0.5094      0.230      2.215      0.027       0.059       0.960
+C(MUNICIPIO_COBERTURA)[T.POLICARPA]                  0.1173      0.230      0.511      0.609      -0.333       0.568
+C(MUNICIPIO_COBERTURA)[T.POPAYÁN]                    1.6010      0.235      6.801      0.000       1.139       2.062
+C(MUNICIPIO_COBERTURA)[T.PRADERA]                    0.2989      0.230      1.300      0.194      -0.152       0.750
+C(MUNICIPIO_COBERTURA)[T.PRADO]                      0.0234      0.230      0.102      0.919      -0.427       0.474
+C(MUNICIPIO_COBERTURA)[T.PROVIDENCIA]                0.6980      0.230      3.039      0.002       0.248       1.148
+C(MUNICIPIO_COBERTURA)[T.PUEBLO BELLO]              -0.3089      0.230     -1.343      0.179      -0.760       0.142
+C(MUNICIPIO_COBERTURA)[T.PUEBLO NUEVO]              -0.1381      0.230     -0.600      0.548      -0.589       0.313
+C(MUNICIPIO_COBERTURA)[T.PUERTO ALEGRÍA]            -0.2980      0.242     -1.230      0.219      -0.773       0.177
+C(MUNICIPIO_COBERTURA)[T.PUERTO ASÍS]                0.7046      0.230      3.065      0.002       0.254       1.155
+C(MUNICIPIO_COBERTURA)[T.PUERTO BERRÍO]              0.5593      0.200      2.796      0.005       0.167       0.951
+C(MUNICIPIO_COBERTURA)[T.PUERTO BOYACÁ]              0.6159      0.209      2.943      0.003       0.206       1.026
+C(MUNICIPIO_COBERTURA)[T.PUERTO CARREÑO]             0.9939      0.230      4.323      0.000       0.543       1.445
+C(MUNICIPIO_COBERTURA)[T.PUERTO GAITÁN]              1.1446      0.230      4.982      0.000       0.694       1.595
+C(MUNICIPIO_COBERTURA)[T.PUERTO GUZMÁN]             -0.1613      0.230     -0.701      0.483      -0.612       0.290
+C(MUNICIPIO_COBERTURA)[T.PUERTO LIBERTADOR]         -0.0890      0.230     -0.387      0.699      -0.540       0.362
+C(MUNICIPIO_COBERTURA)[T.PUERTO LÓPEZ]               0.5652      0.230      2.461      0.014       0.115       1.015
+C(MUNICIPIO_COBERTURA)[T.PUERTO NARE]                1.5874      0.231      6.883      0.000       1.135       2.039
+C(MUNICIPIO_COBERTURA)[T.PUERTO RICO]                1.0311      0.199      5.169      0.000       0.640       1.422
+C(MUNICIPIO_COBERTURA)[T.PUERTO RONDÓN]              0.1944      0.230      0.846      0.398      -0.256       0.645
+C(MUNICIPIO_COBERTURA)[T.PUERTO SALGAR]              0.5822      0.230      2.533      0.011       0.132       1.033
+C(MUNICIPIO_COBERTURA)[T.PUERTO SANTANDER]          -0.1505      0.230     -0.655      0.512      -0.601       0.300
+C(MUNICIPIO_COBERTURA)[T.PUERTO TEJADA]              0.5482      0.230      2.383      0.017       0.097       0.999
+C(MUNICIPIO_COBERTURA)[T.PUERTO TRIUNFO]            -0.1498      0.231     -0.649      0.516      -0.602       0.302
+C(MUNICIPIO_COBERTURA)[T.PUERTO WILCHES]             0.3227      0.230      1.405      0.160      -0.128       0.773
+C(MUNICIPIO_COBERTURA)[T.PULÍ]                      -0.3088      0.230     -1.344      0.179      -0.759       0.142
+C(MUNICIPIO_COBERTURA)[T.PURACÉ]                    -0.1739      0.230     -0.756      0.450      -0.625       0.277
+C(MUNICIPIO_COBERTURA)[T.PURIFICACIÓN]               0.4870      0.230      2.119      0.034       0.036       0.938
+C(MUNICIPIO_COBERTURA)[T.PURÍSIMA]                  -0.1451      0.230     -0.631      0.528      -0.596       0.306
+C(MUNICIPIO_COBERTURA)[T.PÁCORA]                     0.1756      0.207      0.849      0.396      -0.230       0.581
+C(MUNICIPIO_COBERTURA)[T.QUIBDÓ]                     0.9902      0.230      4.305      0.000       0.539       1.441
+C(MUNICIPIO_COBERTURA)[T.QUIMBAYA]                   1.2142      0.230      5.281      0.000       0.763       1.665
+C(MUNICIPIO_COBERTURA)[T.RAGONVALIA]                -0.0173      0.230     -0.075      0.940      -0.467       0.433
+C(MUNICIPIO_COBERTURA)[T.RAMIRIQUÍ]                  0.7102      0.230      3.084      0.002       0.259       1.162
+C(MUNICIPIO_COBERTURA)[T.REMEDIOS]                  -0.0638      0.231     -0.277      0.782      -0.516       0.388
+C(MUNICIPIO_COBERTURA)[T.REPELÓN]                   -0.2129      0.230     -0.924      0.356      -0.665       0.239
+C(MUNICIPIO_COBERTURA)[T.RESTREPO]                   1.9078      0.200      9.556      0.000       1.516       2.299
+C(MUNICIPIO_COBERTURA)[T.RETIRO]                     0.2925      0.210      1.391      0.164      -0.120       0.705
+C(MUNICIPIO_COBERTURA)[T.RICAURTE]                   0.6580      0.199      3.307      0.001       0.268       1.048
+C(MUNICIPIO_COBERTURA)[T.RIOBLANCO]                  0.0058      0.230      0.025      0.980      -0.445       0.456
+C(MUNICIPIO_COBERTURA)[T.RIOHACHA]                   0.9990      0.230      4.347      0.000       0.548       1.450
+C(MUNICIPIO_COBERTURA)[T.RIONEGRO]                   4.5901      0.321     14.293      0.000       3.961       5.220
+C(MUNICIPIO_COBERTURA)[T.RIOSUCIO]                   2.1790      0.199     10.934      0.000       1.788       2.570
+C(MUNICIPIO_COBERTURA)[T.ROLDANILLO]                 0.8750      0.230      3.802      0.000       0.424       1.326
+C(MUNICIPIO_COBERTURA)[T.RONCESVALLES]               0.1408      0.230      0.613      0.540      -0.310       0.591
+C(MUNICIPIO_COBERTURA)[T.ROVIRA]                     0.0515      0.230      0.224      0.823      -0.400       0.503
+C(MUNICIPIO_COBERTURA)[T.SABANA DE TORRES]           0.4284      0.230      1.865      0.062      -0.022       0.879
+C(MUNICIPIO_COBERTURA)[T.SABANAGRANDE]              -0.3083      0.230     -1.338      0.181      -0.760       0.143
+C(MUNICIPIO_COBERTURA)[T.SABANALARGA]                1.7680      0.232      7.613      0.000       1.313       2.223
+C(MUNICIPIO_COBERTURA)[T.SABANETA]                   3.1672      0.232     13.659      0.000       2.713       3.622
+C(MUNICIPIO_COBERTURA)[T.SALADOBLANCO]               0.1010      0.230      0.439      0.661      -0.350       0.552
+C(MUNICIPIO_COBERTURA)[T.SALAMINA]                   2.3849      0.199     11.972      0.000       1.994       2.775
+C(MUNICIPIO_COBERTURA)[T.SALDAÑA]                    0.7299      0.230      3.177      0.001       0.280       1.180
+C(MUNICIPIO_COBERTURA)[T.SAMACÁ]                     1.3896      0.230      6.033      0.000       0.938       1.841
+C(MUNICIPIO_COBERTURA)[T.SAMANIEGO]                 -0.0763      0.230     -0.332      0.740      -0.527       0.374
+C(MUNICIPIO_COBERTURA)[T.SAMANÁ]                    -0.0323      0.230     -0.141      0.888      -0.483       0.419
+C(MUNICIPIO_COBERTURA)[T.SAN ALBERTO]                0.4198      0.230      1.825      0.068      -0.031       0.871
+C(MUNICIPIO_COBERTURA)[T.SAN ANDRÉS]                 4.5636      0.415     10.999      0.000       3.750       5.377
+C(MUNICIPIO_COBERTURA)[T.SAN ANTERO]                -0.1542      0.230     -0.671      0.502      -0.605       0.297
+C(MUNICIPIO_COBERTURA)[T.SAN BERNARDO]               0.9934      0.199      4.992      0.000       0.603       1.384
+C(MUNICIPIO_COBERTURA)[T.SAN CARLOS]                 0.4734      0.200      2.372      0.018       0.082       0.865
+C(MUNICIPIO_COBERTURA)[T.SAN CARLOS DE GUAROA]       0.0072      0.230      0.032      0.975      -0.443       0.458
+C(MUNICIPIO_COBERTURA)[T.SAN CAYETANO]               0.2398      0.199      1.206      0.228      -0.150       0.630
+C(MUNICIPIO_COBERTURA)[T.SAN CRISTÓBAL]             -0.3195      0.230     -1.386      0.166      -0.771       0.132
+C(MUNICIPIO_COBERTURA)[T.SAN FRANCISCO]              0.7046      0.188      3.752      0.000       0.336       1.073
+C(MUNICIPIO_COBERTURA)[T.SAN GIL]                    2.2598      0.230      9.828      0.000       1.809       2.711
+C(MUNICIPIO_COBERTURA)[T.SAN JACINTO]                0.3346      0.230      1.453      0.146      -0.117       0.786
+C(MUNICIPIO_COBERTURA)[T.SAN JERÓNIMO]               0.0700      0.231      0.304      0.761      -0.382       0.522
+C(MUNICIPIO_COBERTURA)[T.SAN JOSÉ DE PARE]           0.2083      0.230      0.905      0.366      -0.243       0.660
+C(MUNICIPIO_COBERTURA)[T.SAN JOSÉ DEL GUAVIARE]      0.9670      0.230      4.206      0.000       0.516       1.418
+C(MUNICIPIO_COBERTURA)[T.SAN JUAN DE BETULIA]       -0.2861      0.230     -1.245      0.213      -0.737       0.164
+C(MUNICIPIO_COBERTURA)[T.SAN JUAN DE RÍO SECO]       0.2450      0.230      1.066      0.286      -0.205       0.695
+C(MUNICIPIO_COBERTURA)[T.SAN JUAN DE URABÁ]         -0.2743      0.231     -1.190      0.234      -0.726       0.178
+C(MUNICIPIO_COBERTURA)[T.SAN JUAN DEL CESAR]         0.6975      0.230      3.036      0.002       0.247       1.148
+C(MUNICIPIO_COBERTURA)[T.SAN JUANITO]                0.8920      0.230      3.883      0.000       0.442       1.342
+C(MUNICIPIO_COBERTURA)[T.SAN LORENZO]               -0.1004      0.230     -0.437      0.662      -0.551       0.350
+C(MUNICIPIO_COBERTURA)[T.SAN LUIS]                   0.6023      0.199      3.023      0.003       0.212       0.993
+C(MUNICIPIO_COBERTURA)[T.SAN LUIS DE PALENQUE]       0.0293      0.230      0.128      0.898      -0.421       0.480
+C(MUNICIPIO_COBERTURA)[T.SAN MARTÍN]                 1.4439      0.200      7.222      0.000       1.052       1.836
+C(MUNICIPIO_COBERTURA)[T.SAN MIGUEL]                 1.8904      0.201      9.420      0.000       1.497       2.284
+C(MUNICIPIO_COBERTURA)[T.SAN PABLO]                  1.3938      0.199      6.993      0.000       1.003       1.784
+C(MUNICIPIO_COBERTURA)[T.SAN PEDRO]                  3.8026      0.200     19.037      0.000       3.411       4.194
+C(MUNICIPIO_COBERTURA)[T.SAN PEDRO DE URABA]        -0.1348      0.231     -0.584      0.559      -0.587       0.317
+C(MUNICIPIO_COBERTURA)[T.SAN PELAYO]                -0.1596      0.230     -0.694      0.488      -0.610       0.291
+C(MUNICIPIO_COBERTURA)[T.SAN ROQUE]                 -0.1617      0.231     -0.701      0.484      -0.614       0.291
+C(MUNICIPIO_COBERTURA)[T.SAN VICENTE DEL CAGUÁN]     0.4079      0.230      1.773      0.076      -0.043       0.859
+C(MUNICIPIO_COBERTURA)[T.SANTA ANA]                 -0.1400      0.199     -0.703      0.482      -0.530       0.250
+C(MUNICIPIO_COBERTURA)[T.SANTA BÁRBARA]              3.1738      0.231     13.758      0.000       2.722       3.626
+C(MUNICIPIO_COBERTURA)[T.SANTA ISABEL]               0.0528      0.230      0.230      0.818      -0.398       0.503
+C(MUNICIPIO_COBERTURA)[T.SANTA MARTA]                0.4813      0.188      2.555      0.011       0.112       0.851
+C(MUNICIPIO_COBERTURA)[T.SANTA MARÍA]                1.1058      0.183      6.050      0.000       0.748       1.464
+C(MUNICIPIO_COBERTURA)[T.SANTA ROSA]                -0.2715      0.200     -1.361      0.174      -0.663       0.120
+C(MUNICIPIO_COBERTURA)[T.SANTA ROSA DE CABAL]        0.6748      0.230      2.936      0.003       0.224       1.125
+C(MUNICIPIO_COBERTURA)[T.SANTA ROSA DE OSOS]         0.7805      0.231      3.383      0.001       0.328       1.233
+C(MUNICIPIO_COBERTURA)[T.SANTA ROSA DE VITERBO]      0.5480      0.230      2.380      0.017       0.097       0.999
+C(MUNICIPIO_COBERTURA)[T.SANTA ROSA DEL SUR]        -0.0502      0.230     -0.218      0.827      -0.502       0.401
+C(MUNICIPIO_COBERTURA)[T.SANTA SOFÍA]                0.2820      0.230      1.225      0.221      -0.169       0.733
+C(MUNICIPIO_COBERTURA)[T.SANTAFÉ DE ANTIOQUIA]       1.6981      0.231      7.353      0.000       1.245       2.151
+C(MUNICIPIO_COBERTURA)[T.SANTANDER DE QUILICHAO]     0.7977      0.230      3.464      0.001       0.346       1.249
+C(MUNICIPIO_COBERTURA)[T.SANTIAGO DE TOLÚ]           0.4042      0.230      1.760      0.079      -0.046       0.854
+C(MUNICIPIO_COBERTURA)[T.SANTO TOMÁS]                0.1468      0.230      0.637      0.524      -0.305       0.598
+C(MUNICIPIO_COBERTURA)[T.SAPUYES]                    0.2521      0.199      1.267      0.205      -0.138       0.642
+C(MUNICIPIO_COBERTURA)[T.SARAVENA]                   1.0537      0.230      4.584      0.000       0.603       1.504
+C(MUNICIPIO_COBERTURA)[T.SARDINATA]                 -0.1182      0.230     -0.514      0.607      -0.569       0.332
+C(MUNICIPIO_COBERTURA)[T.SASAIMA]                    0.0498      0.230      0.217      0.828      -0.401       0.501
+C(MUNICIPIO_COBERTURA)[T.SEGOVIA]                    0.1521      0.231      0.659      0.510      -0.300       0.604
+C(MUNICIPIO_COBERTURA)[T.SESQUILÉ]                   1.1335      0.230      4.933      0.000       0.683       1.584
+C(MUNICIPIO_COBERTURA)[T.SEVILLA]                    0.5347      0.230      2.325      0.020       0.084       0.986
+C(MUNICIPIO_COBERTURA)[T.SIACHOQUE]                 -0.3190      0.230     -1.386      0.166      -0.770       0.132
+C(MUNICIPIO_COBERTURA)[T.SIBATÉ]                     0.4149      0.230      1.804      0.071      -0.036       0.866
+C(MUNICIPIO_COBERTURA)[T.SIBUNDOY]                   0.9506      0.230      4.135      0.000       0.500       1.401
+C(MUNICIPIO_COBERTURA)[T.SILVANIA]                   0.0874      0.230      0.381      0.704      -0.363       0.538
+C(MUNICIPIO_COBERTURA)[T.SIMACOTA]                  -0.0801      0.230     -0.348      0.728      -0.531       0.370
+C(MUNICIPIO_COBERTURA)[T.SIMIJACA]                   0.5520      0.230      2.403      0.016       0.102       1.002
+C(MUNICIPIO_COBERTURA)[T.SIMITÍ]                    -0.0076      0.231     -0.033      0.974      -0.460       0.444
+C(MUNICIPIO_COBERTURA)[T.SINCELEJO]                  1.5602      0.232      6.736      0.000       1.106       2.014
+C(MUNICIPIO_COBERTURA)[T.SITIONUEVO]                -0.3139      0.230     -1.366      0.172      -0.764       0.137
+C(MUNICIPIO_COBERTURA)[T.SOCORRO]                    1.1766      0.230      5.122      0.000       0.726       1.627
+C(MUNICIPIO_COBERTURA)[T.SOGAMOSO]                   1.5515      0.232      6.683      0.000       1.096       2.007
+C(MUNICIPIO_COBERTURA)[T.SOLANO]                    -0.0227      0.230     -0.099      0.921      -0.474       0.429
+C(MUNICIPIO_COBERTURA)[T.SOLEDAD]                   -0.1625      0.233     -0.697      0.486      -0.619       0.294
+C(MUNICIPIO_COBERTURA)[T.SONSON]                     0.4851      0.231      2.104      0.035       0.033       0.937
+C(MUNICIPIO_COBERTURA)[T.SOPETRÁN]                   0.0858      0.231      0.372      0.710      -0.366       0.538
+C(MUNICIPIO_COBERTURA)[T.SOPÓ]                       1.4734      0.230      6.411      0.000       1.023       1.924
+C(MUNICIPIO_COBERTURA)[T.SORA]                      -0.2947      0.199     -1.477      0.140      -0.686       0.096
+C(MUNICIPIO_COBERTURA)[T.SOTAQUIRÁ]                  0.0881      0.230      0.383      0.702      -0.363       0.539
+C(MUNICIPIO_COBERTURA)[T.SUBACHOQUE]                 1.2762      0.230      5.552      0.000       0.826       1.727
+C(MUNICIPIO_COBERTURA)[T.SUCRE]                      1.6515      0.188      8.799      0.000       1.284       2.019
+C(MUNICIPIO_COBERTURA)[T.SUPÍA]                      0.5391      0.230      2.342      0.019       0.088       0.990
+C(MUNICIPIO_COBERTURA)[T.SUÁREZ]                     1.5497      0.199      7.789      0.000       1.160       1.940
+C(MUNICIPIO_COBERTURA)[T.TABIO]                      0.2660      0.230      1.156      0.248      -0.185       0.717
+C(MUNICIPIO_COBERTURA)[T.TADÓ]                       0.0505      0.230      0.220      0.826      -0.400       0.501
+C(MUNICIPIO_COBERTURA)[T.TALAIGUA NUEVO]            -0.3081      0.230     -1.338      0.181      -0.760       0.143
+C(MUNICIPIO_COBERTURA)[T.TAME]                       0.5677      0.230      2.470      0.014       0.117       1.018
+C(MUNICIPIO_COBERTURA)[T.TAMINANGO]                 -0.0269      0.230     -0.117      0.907      -0.477       0.423
+C(MUNICIPIO_COBERTURA)[T.TARAZÁ]                    -0.0073      0.230     -0.032      0.975      -0.459       0.445
+C(MUNICIPIO_COBERTURA)[T.TAURAMENA]                  0.9867      0.230      4.293      0.000       0.536       1.437
+C(MUNICIPIO_COBERTURA)[T.TENJO]                      1.7614      0.230      7.664      0.000       1.311       2.212
+C(MUNICIPIO_COBERTURA)[T.TEORAMA]                   -0.1347      0.230     -0.586      0.558      -0.585       0.316
+C(MUNICIPIO_COBERTURA)[T.TESALIA]                   -0.1217      0.230     -0.530      0.596      -0.572       0.329
+C(MUNICIPIO_COBERTURA)[T.TIBACUY]                   -0.3283      0.230     -1.429      0.153      -0.779       0.122
+C(MUNICIPIO_COBERTURA)[T.TIBÚ]                      -0.0834      0.230     -0.363      0.717      -0.534       0.367
+C(MUNICIPIO_COBERTURA)[T.TIERRALTA]                 -0.1470      0.230     -0.639      0.523      -0.598       0.304
+C(MUNICIPIO_COBERTURA)[T.TIMANÁ]                    -0.0640      0.230     -0.279      0.780      -0.514       0.386
+C(MUNICIPIO_COBERTURA)[T.TIMBIQUÍ]                  -0.0435      0.230     -0.189      0.850      -0.495       0.408
+C(MUNICIPIO_COBERTURA)[T.TOCA]                       0.2178      0.230      0.946      0.344      -0.234       0.669
+C(MUNICIPIO_COBERTURA)[T.TOCAIMA]                    0.0392      0.230      0.171      0.865      -0.411       0.490
+C(MUNICIPIO_COBERTURA)[T.TOCANCIPÁ]                  1.3362      0.230      5.805      0.000       0.885       1.787
+C(MUNICIPIO_COBERTURA)[T.TOLEDO]                     1.5895      0.199      7.976      0.000       1.199       1.980
+C(MUNICIPIO_COBERTURA)[T.TONA]                      -0.0435      0.230     -0.190      0.850      -0.494       0.407
+C(MUNICIPIO_COBERTURA)[T.TOPAIPÍ]                    0.1259      0.230      0.548      0.584      -0.324       0.576
+C(MUNICIPIO_COBERTURA)[T.TORIBIO]                   -0.2010      0.230     -0.874      0.382      -0.652       0.250
+C(MUNICIPIO_COBERTURA)[T.TRINIDAD]                   0.0069      0.230      0.030      0.976      -0.444       0.458
+C(MUNICIPIO_COBERTURA)[T.TULUÁ]                      1.0735      0.231      4.638      0.000       0.620       1.527
+C(MUNICIPIO_COBERTURA)[T.TUNJA]                      2.3887      0.235     10.145      0.000       1.927       2.850
+C(MUNICIPIO_COBERTURA)[T.TURBACO]                   -0.0400      0.230     -0.174      0.862      -0.492       0.412
+C(MUNICIPIO_COBERTURA)[T.TURBO]                      0.2171      0.231      0.941      0.347      -0.235       0.669
+C(MUNICIPIO_COBERTURA)[T.TURMEQUÉ]                   0.1993      0.230      0.866      0.387      -0.252       0.651
+C(MUNICIPIO_COBERTURA)[T.UBALÁ]                      0.0099      0.230      0.043      0.966      -0.441       0.460
+C(MUNICIPIO_COBERTURA)[T.UBAQUE]                    -0.1838      0.230     -0.800      0.424      -0.634       0.267
+C(MUNICIPIO_COBERTURA)[T.UNE]                        0.1390      0.230      0.605      0.545      -0.311       0.589
+C(MUNICIPIO_COBERTURA)[T.UNGUÍA]                    -0.0512      0.230     -0.223      0.824      -0.502       0.399
+C(MUNICIPIO_COBERTURA)[T.VALDIVIA]                  -0.1012      0.231     -0.439      0.661      -0.553       0.351
+C(MUNICIPIO_COBERTURA)[T.VALENCIA]                  -0.1184      0.230     -0.515      0.607      -0.569       0.332
+C(MUNICIPIO_COBERTURA)[T.VALLE DEL GUAMUEZ]          0.0386      0.230      0.168      0.867      -0.412       0.489
+C(MUNICIPIO_COBERTURA)[T.VALLEDUPAR]                 0.9693      0.235      4.117      0.000       0.508       1.431
+C(MUNICIPIO_COBERTURA)[T.VALPARAÍSO]                 1.4213      0.200      7.122      0.000       1.030       1.813
+C(MUNICIPIO_COBERTURA)[T.VENECIA]                    2.8946      0.205     14.131      0.000       2.493       3.296
+C(MUNICIPIO_COBERTURA)[T.VENTAQUEMADA]              -0.0217      0.230     -0.094      0.925      -0.473       0.430
+C(MUNICIPIO_COBERTURA)[T.VERSALLES]                  0.6037      0.230      2.626      0.009       0.153       1.054
+C(MUNICIPIO_COBERTURA)[T.VETAS]                      0.5332      0.230      2.321      0.020       0.083       0.984
+C(MUNICIPIO_COBERTURA)[T.VILLA CARO]                 0.0175      0.230      0.076      0.939      -0.433       0.468
+C(MUNICIPIO_COBERTURA)[T.VILLA DE LEYVA]             1.4094      0.230      6.119      0.000       0.958       1.861
+C(MUNICIPIO_COBERTURA)[T.VILLA DEL ROSARIO]         -0.3310      0.230     -1.439      0.150      -0.782       0.120
+C(MUNICIPIO_COBERTURA)[T.VILLA RICA]                -0.3080      0.230     -1.339      0.180      -0.759       0.143
+C(MUNICIPIO_COBERTURA)[T.VILLAGARZÓN]                0.3993      0.230      1.737      0.082      -0.051       0.850
+C(MUNICIPIO_COBERTURA)[T.VILLAGÓMEZ]                 0.6408      0.230      2.789      0.005       0.190       1.091
+C(MUNICIPIO_COBERTURA)[T.VILLARRICA]                 1.9274      0.202      9.529      0.000       1.531       2.324
+C(MUNICIPIO_COBERTURA)[T.VILLAVICENCIO]              0.6915      0.266      2.603      0.009       0.171       1.212
+C(MUNICIPIO_COBERTURA)[T.VILLETA]                    1.8553      0.230      8.073      0.000       1.405       2.306
+C(MUNICIPIO_COBERTURA)[T.VIOTÁ]                     -0.0045      0.230     -0.020      0.984      -0.455       0.446
+C(MUNICIPIO_COBERTURA)[T.VITERBO]                    0.0038      0.230      0.016      0.987      -0.448       0.455
+C(MUNICIPIO_COBERTURA)[T.VÉLEZ]                      0.8265      0.230      3.598      0.000       0.376       1.277
+C(MUNICIPIO_COBERTURA)[T.YOLOMBÓ]                   -0.0931      0.230     -0.404      0.686      -0.545       0.359
+C(MUNICIPIO_COBERTURA)[T.YOPAL]                      1.5937      0.231      6.899      0.000       1.141       2.047
+C(MUNICIPIO_COBERTURA)[T.YUMBO]                      0.5514      0.230      2.394      0.017       0.100       1.003
+C(MUNICIPIO_COBERTURA)[T.ZARAGOZA]                  -0.1328      0.230     -0.576      0.564      -0.585       0.319
+C(MUNICIPIO_COBERTURA)[T.ZETAQUIRA]                  0.3515      0.230      1.526      0.127      -0.100       0.803
+C(MUNICIPIO_COBERTURA)[T.ZIPAQUIRÁ]                  1.2637      0.231      5.469      0.000       0.811       1.717
+C(MUNICIPIO_COBERTURA)[T.ZONA BANANERA]             -0.3037      0.230     -1.322      0.186      -0.754       0.147
+corresp_time_2018S2                                  0.0013      0.000      5.089      0.000       0.001       0.002
+corresp_time_2019S1                                  0.0011      0.000      4.914      0.000       0.001       0.002
+corresp_time_2019S2                                  0.0012      0.000      5.576      0.000       0.001       0.002
+corresp_time_2020S1                                  0.0007      0.000      4.029      0.000       0.000       0.001
+corresp_time_2020S2                                  0.0007      0.000      3.907      0.000       0.000       0.001
+corresp_time_2021S1                                  0.0012      0.000     10.410      0.000       0.001       0.001
+corresp_time_2022S1                                  0.0010      0.000      6.229      0.000       0.001       0.001
+corresp_time_2022S2                                  0.0008      0.000      7.188      0.000       0.001       0.001
+corresp_time_2023S1                                  0.0007      0.000      7.000      0.000       0.001       0.001
+corresp_time_2023S2                                 -0.0001      0.000     -0.672      0.502      -0.001       0.000
+corresp_post_placebo                                -0.0183      0.014     -1.272      0.204      -0.046       0.010
+PCA_COBERTURA                                        0.0571      0.017      3.292      0.001       0.023       0.091
+trend_municipio                                   1.178e-05   1.31e-05      0.899      0.369   -1.39e-05    3.75e-05
+==============================================================================
+Omnibus:                     2263.121   Durbin-Watson:                   2.005
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            29429.850
+Skew:                           1.391   Prob(JB):                         0.00
+Kurtosis:                      13.352   Cond. No.                     9.36e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.36e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

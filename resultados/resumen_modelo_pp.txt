@@ -1,0 +1,28 @@
+                                      OLS Regression Results                                     
+=================================================================================================
+Dep. Variable:     Inclusion_financiera_general_relativa   R-squared:                       0.058
+Model:                                               OLS   Adj. R-squared:                  0.057
+Method:                                    Least Squares   F-statistic:                     50.98
+Date:                                   Wed, 28 May 2025   Prob (F-statistic):           1.02e-41
+Time:                                           21:04:32   Log-Likelihood:                -5037.2
+No. Observations:                                   3333   AIC:                         1.008e+04
+Df Residuals:                                       3328   BIC:                         1.011e+04
+Df Model:                                              4                                         
+Covariance Type:                               nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         1.1744      0.083     14.191      0.000       1.012       1.337
+trend_time       -0.0399      0.019     -2.116      0.034      -0.077      -0.003
+PCA_COBERTURA     0.2410      0.042      5.758      0.000       0.159       0.323
+tratado           0.4699      0.069      6.768      0.000       0.334       0.606
+tratado_trend     0.0103      0.023      0.450      0.653      -0.035       0.055
+==============================================================================
+Omnibus:                     1028.921   Durbin-Watson:                   0.836
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2805.299
+Skew:                           1.645   Prob(JB):                         0.00
+Kurtosis:                       6.062   Cond. No.                         20.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
